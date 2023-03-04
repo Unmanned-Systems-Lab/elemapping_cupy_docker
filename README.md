@@ -11,6 +11,7 @@
 docker load < elevation_mapping_docker.tar.gz
 ```
 ![导入镜像](crop2.png)
+
 如果VS code中安装了docker插件，可以看到导入的docker镜像
 ![docker镜像](crop10.png)
 ## 5.使用镜像
@@ -20,8 +21,8 @@ cd elemapping_cupy_docker/
 bash ele_docker.sh 
 ```
 ![使用镜像](crop3.png)
-如果在VS code中安装了docker插件，可以看到启动了container
 
+如果在VS code中安装了docker插件，可以看到启动了container
 ![开启镜像](crop11.png)
 上面的指令可以开一个bash，如果要开第二个以及以上的bash的话需要输入指令：
   #### 1.先查看主机运行的docker container的id
