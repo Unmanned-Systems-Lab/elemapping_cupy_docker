@@ -3,7 +3,7 @@
 之所以安装nvidia 510版的驱动，是因为docker镜像里面使用的cuda是11.6版本的，与cuda11.6对应的驱动版本是510
 ![nvidia 510驱动](crop1.png)
 ## 2.在主机上配置 NVIDIA Container Toolkit
-为了能让docker镜像使用GPU，需要配置[NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) 
+为了能让docker镜像使用GPU，主机上需要配置[NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-docker) 
 ## 3.下载docker镜像
 [elevation_mapping_docker.tar.gz](https://1drv.ms/u/s!Akfo1jwOehy0i4RAFHAqWv5E5C_i2Q?e=eK4QB8)
 ## 4.导入镜像 
