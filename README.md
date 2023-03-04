@@ -24,11 +24,11 @@ bash ele_docker.sh
   ```
   docker container list
   ```
-  ![查看container id](crop4.png)
   #### 2.然后在一个新终端执行
   ```
   docker exec -it cffe646ba275 /bin/bash
   ```
+![查看container id](crop4.png)
 ## 6.测试elevation_mapping_cupy程序
 按照第5步操作进入container里面，输入下面的指令，会出现rviz和gazebo（为了能将container里面的GUI显示到主机上，注意主机上需要运行命令```xhost +local:docker```）
 ```
