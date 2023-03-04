@@ -9,3 +9,4 @@
 ```
 docker load < elevation_mapping_docker.tar.gz
 ```
+![导入镜像](crop2.png)
