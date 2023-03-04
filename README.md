@@ -12,5 +12,7 @@ docker load < elevation_mapping_docker.tar.gz
 ![导入镜像](crop2.png)
 ## 4.使用镜像
 ```
+git clone https://github.com/multimeters/elemapping_cupy_docker.git
+cd elemapping_cupy_docker/
 bash ele_docker.sh 
 ```
