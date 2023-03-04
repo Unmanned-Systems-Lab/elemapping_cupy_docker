@@ -24,7 +24,7 @@ bash ele_docker.sh
   ```
   docker container list
   ```
-  #### 2.然后执行
+  #### 2.然后在一个新终端执行
   ```
   docker exec -it cffe646ba275 /bin/bash
   ```
