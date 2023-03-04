@@ -29,8 +29,11 @@ bash ele_docker.sh
   docker exec -it cffe646ba275 /bin/bash
   ```
 ## 6.测试elevation_mapping_cupy程序
+按照第5步操作进入container里面，输入下面的指令，会出现rviz和gazebo（为了能将container里面的GUI显示到主机上，注意上需要运行命令```xhost +local:docker```）
 ```
-git clone https://github.com/multimeters/elemapping_cupy_docker.git
-cd elemapping_cupy_docker/
-bash ele_docker.sh 
+cd elevation_mapping_ws
+source devel/setup.bash
+export TURTLEBOT3_MODEL=waffle
+roslaunch elevation_mapping_cupy turtlesim_example.launch
 ```
+按照第5步操作开第二个终端，输入下面的指令
