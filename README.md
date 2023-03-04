@@ -11,6 +11,8 @@
 docker load < elevation_mapping_docker.tar.gz
 ```
 ![导入镜像](crop2.png)
+如果VS code中安装了docker插件，可以看到导入的docker镜像
+![docker镜像](crop10.png)
 ## 5.使用镜像
 ```
 git clone https://github.com/multimeters/elemapping_cupy_docker.git
