@@ -20,14 +20,14 @@ bash ele_docker.sh
 ![使用镜像](crop3.png)
 
 上面的指令可以开一个bash，如果要开第二个以及以上的bash的话需要输入指令：
-### 1.先查看上面运行的docker container的id
-```
-docker container list
-```
-### 2.然后执行
-```
-docker exec -it cffe646ba275 /bin/bash
-```
+  ### 1.先查看上面运行的docker container的id
+  ```
+  docker container list
+  ```
+  ### 2.然后执行
+  ```
+  docker exec -it cffe646ba275 /bin/bash
+  ```
 ## 6.测试elevation_mapping_cupy程序
 ```
 git clone https://github.com/multimeters/elemapping_cupy_docker.git
