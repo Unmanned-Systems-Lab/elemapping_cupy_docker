@@ -1,4 +1,4 @@
-# 使用方法
+# elemapping_cupy_docker使用方法
 ## 1.在主机上安装nvidia 510版本的驱动
 之所以安装nvidia 510版的驱动，是因为docker镜像里面使用的cuda是11.6版本的，与cuda11.6对应的驱动版本是510
 ![nvidia 510驱动](crop1.png)
