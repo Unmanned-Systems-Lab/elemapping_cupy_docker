@@ -37,6 +37,8 @@ source devel/setup.bash
 export TURTLEBOT3_MODEL=waffle
 roslaunch elevation_mapping_cupy turtlesim_example.launch
 ```
+![使用镜像](crop5.png)
+![使用镜像](crop6.png)
 如果要使用键盘控制TURTLEBOT按照第5步操作开第二个终端，输入下面的指令：
 ```
 export TURTLEBOT3_MODEL=waffle
