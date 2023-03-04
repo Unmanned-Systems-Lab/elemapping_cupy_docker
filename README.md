@@ -1,1 +1,2 @@
-# elemapping_cupy_docker
+# 使用方法
+##1 主机上安装nvidia 510版本的驱动
