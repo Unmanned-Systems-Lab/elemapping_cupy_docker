@@ -31,6 +31,7 @@ bash ele_docker.sh
 ![查看container id](crop4.png)
 ## 6.测试elevation_mapping_cupy程序
 按照第5步操作进入container里面，输入下面的指令，会出现rviz和gazebo（为了能将container里面的GUI显示到主机上，注意主机上需要运行命令```xhost +local:docker```）
+![xhost +local:docker](crop8.png)
 ```
 cd elevation_mapping_ws
 source devel/setup.bash
