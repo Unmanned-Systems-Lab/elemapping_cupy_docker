@@ -20,10 +20,11 @@ bash ele_docker.sh
 ![使用镜像](crop3.png)
 
 上面的指令可以开一个bash，如果要开第二个以及以上的bash的话需要输入指令：
-  #### 1.先查看上面运行的docker container的id
+  #### 1.先查看主机运行的docker container的id
   ```
   docker container list
   ```
+  ![查看container id](crop4.png)
   #### 2.然后在一个新终端执行
   ```
   docker exec -it cffe646ba275 /bin/bash
