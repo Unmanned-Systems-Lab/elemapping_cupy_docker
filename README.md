@@ -16,3 +16,4 @@ git clone https://github.com/multimeters/elemapping_cupy_docker.git
 cd elemapping_cupy_docker/
 bash ele_docker.sh 
 ```
+![使用镜像](crop3.png)
